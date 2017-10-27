@@ -20,3 +20,27 @@
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
 }
+
+.row {
+    color: black;
+    background-image: url("../images/purpletree2.jpg");
+    background-repeat: no-repeat;
+    padding-left: 1%;
+    text-align: left;
+    width: 800px;
+    height: 250px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
