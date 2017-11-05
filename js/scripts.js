@@ -10,7 +10,7 @@ $(document).ready(function(){
         $("#list").append("<li>"+ countInput +"</li>");
         });
           });
-            });
+          });
 
 // business logic
 var pinpongedNumbers = [];
@@ -20,7 +20,6 @@ function pingpong(countInput) {
     if (x % 15 === 0) {
       pinpongedNumbers.push("pingpong");
     }
-
     else if (x % 5 === 0) {
       pinpongedNumbers.push("pong");
     }

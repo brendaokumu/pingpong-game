@@ -41,6 +41,6 @@
 }
 
 @keyframes mymove {
-    from {left: 0px;}
-    to {left: 600px;}
+    from {right: -350px;}
+    to {left: 400px;}
 }
