@@ -2,10 +2,10 @@
 
 $(document).ready(function() {
   $("form").submit(function(event) {
-    event.preventDefault
-
-    // empty pinpongedNumbers
+    event.preventDefault();
     $("ul#list").empty();
+// empty pinpongedNumbers
+    // pinpongedNumbers.empty();
 
     var countInput = parseInt($("input#count").val());
 
