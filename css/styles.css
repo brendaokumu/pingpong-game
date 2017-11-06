@@ -36,8 +36,8 @@
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 300px;}
+    from {left: -350px;}
+    to {left: 400px;}
 }
 
 @keyframes mymove {
